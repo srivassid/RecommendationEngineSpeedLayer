@@ -4,3 +4,8 @@
 
 azure-functions
 pandas
+gremlinpython
+imdbpy
+scikit-learn
+nltk
+numpy

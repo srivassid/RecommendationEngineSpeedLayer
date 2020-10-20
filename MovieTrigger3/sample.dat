@@ -1,5 +1,5 @@
 {
-  'topic': '/subscriptions/5b4b650e-28b9-4790-b3ab-ddbd88d727c4/resourcegroups/test/providers/Microsoft.EventHub/namespaces/test',
+  'topic': 'my-topic',
   'subject': 'eventhubs/test',
   'eventType': 'captureFileCreated',
   'eventTime': '2017-07-14T23:10:27.7689666Z',

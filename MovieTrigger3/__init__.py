@@ -185,9 +185,9 @@ def main(event: func.EventGridEvent):
     logging.info('Python EventGrid trigger processed an event: %s', result)
     movie = event.get_json()['movie']
 
-    account = 'wss://account-cosmos-db.gremlin.cosmosdb.azure.com:443/'
-    username = '/dbs/GraphDB1/colls/MovieGraph3'
-    password = 'np4uDpHJIdpY1JCWHJpLX1QRxFYxVVT4mnE55qIG3MmrFDoqKHmG7Spptp7dxx8LFLD5D6xeOsRjO1YMpyjZtA=='
+    account = 'your-account'
+    username = 'your-username'
+    password = 'your-password'
     msg_serializer = serializer.GraphSONSerializersV2d0()
 
     cosmos_client = client.Client(account, 'g', username=username,
